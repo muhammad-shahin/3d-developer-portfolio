@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
+import msLogo from '../assets/ms-logo.png';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -42,14 +43,16 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img
-            src={logo}
-            alt='logo'
-            className='w-9 h-9 object-contain'
-          />
+          <div className='bg-[#7647DC] p-2 rounded-full bg-opacity-40 backdrop-blur-lg'>
+            <img
+              src={msLogo}
+              alt='logo'
+              className='w-7 h-7 object-contain'
+            />
+          </div>
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+            Muhammad Shahin &nbsp;
+            <span className='sm:block hidden'> | Web Developer </span>
           </p>
         </Link>
 

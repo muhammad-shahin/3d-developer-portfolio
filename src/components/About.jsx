@@ -47,11 +47,28 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a web developer who loves creating useful and modern web apps to
+        solve real problems and boost businesses online. Currently, my working
+        stack is MERN but I am not afraid to learn any new stack that aligns
+        with the project requirements and enhances my development skills. Beside
+        Web Development I have fundamental knowledge of Java & Kotlin
+        Programming and basic knowledge of Native Android App Development.
+      </motion.p>
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+        Along my journey, I explored digital marketing and WordPress web
+        development in an attempt to start my online business. Though it didn't
+        take off, the experience taught me a lot.
+      </motion.p>
+      <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+        I enjoy exploring new tech stuff. I am passionate to build application
+        that's help people to solve their real life problems. Let's connect and
+        chat about tech and exciting opportunities!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
