@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+import { Link } from 'react-router-dom';
+import { download } from '../assets';
 
 const Hero = () => {
   return (
@@ -22,6 +24,21 @@ const Hero = () => {
             I am a Frontend Developer <br className='sm:block hidden' />
             with Essential Backend Knowledge.
           </p>
+          <Link
+            to={
+              'https://drive.google.com/drive/folders/1U1E3zutdJj82R3TFhanJ0LgLrZlhq7Zu?usp=sharing'
+            }
+            className='relative z-[100]'
+          >
+            <button className='px-5 py-2 rounded-full bg-gradient-to-r from-[#915EFF] to-indigo-600 hover:from-indigo-600 hover:to-indigo-600 duration-300 flex justify-center items-center gap-3 mt-4'>
+              Download Resume
+              <img
+                src={download}
+                className='w-[22px]'
+                alt='source code'
+              />
+            </button>
+          </Link>
         </div>
       </div>
 

@@ -31,6 +31,7 @@ import fashion_apparel from './fashion_apparel.PNG';
 import apartment_management from './apartment_management.png';
 import online_group_study from './online_group_study.png';
 import browser from './browser.svg';
+import download from './download.svg';
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   online_group_study,
   nextjs,
   browser,
+  download,
 };
