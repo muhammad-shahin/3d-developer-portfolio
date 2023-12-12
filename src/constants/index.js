@@ -177,10 +177,10 @@ const topProjects = [
     iconBg: '#383E56',
     complete_duration: 'March 2020 - April 2021',
     features: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Firebase Authentication with User Roles',
+      'Stripe Payment Integration for Monthly Rent',
+      'Admin Dashboard for User and Payment Management',
+      'Responsive Design for Cross-Device Compatibility',
     ],
     technologies: [
       {
@@ -199,6 +199,10 @@ const topProjects = [
         name: 'firebase',
         color: 'orange-text-gradient',
       },
+      {
+        name: 'stripe',
+        color: 'blue-text-gradient',
+      },
     ],
     live_link: 'https://linden-apartment-management.web.app/',
     client_link:
@@ -214,10 +218,10 @@ const topProjects = [
     iconBg: '#a4a4a4',
     complete_duration: 'March 2020 - April 2021',
     features: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Firebase Authentication with Social Logins',
+      'CRUD Operations for Assignments (Create, Read, Update, Delete)',
+      'JWT Token Authentication for Securing API',
+      'Additional Features: Resource Preview, Pagination, Validation, Responsiveness',
     ],
     technologies: [
       {
@@ -233,11 +237,9 @@ const topProjects = [
         color: 'pink-text-gradient',
       },
     ],
-    live_link: 'https://linden-apartment-management.web.app/',
-    client_link:
-      'https://github.com/muhammad-shahin/apartment-management-client',
-    server_link:
-      'https://github.com/muhammad-shahin/apartment-management-server',
+    live_link: 'https://ratemy-project.web.app/',
+    client_link: 'https://github.com/muhammad-shahin/rate-my-project-client',
+    server_link: 'https://github.com/muhammad-shahin/rate-my-project-server',
   },
   {
     title: 'Fashion & Apparel E-Commerce',
@@ -246,10 +248,10 @@ const topProjects = [
     iconBg: '#383E56',
     complete_duration: 'March 2020 - April 2021',
     features: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Firebase Authentication with Google and Email/Password',
+      'Admin Panel for Product and Content Management',
+      'Responsive Design for Seamless Cross-Device Experience',
+      'Cart Management with Dynamic Price Calculation',
     ],
     technologies: [
       {
@@ -269,11 +271,11 @@ const topProjects = [
         color: 'blue-text-gradient',
       },
     ],
-    live_link: 'https://linden-apartment-management.web.app/',
+    live_link: 'https://fashion-and-apparel-house.web.app/',
     client_link:
-      'https://github.com/muhammad-shahin/apartment-management-client',
+      'https://github.com/muhammad-shahin/apparel-and-fashion-client',
     server_link:
-      'https://github.com/muhammad-shahin/apartment-management-server',
+      'https://github.com/muhammad-shahin/apparel-and-fashion-server',
   },
 ];
 

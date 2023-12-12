@@ -11,6 +11,8 @@ import { styles } from '../styles';
 import { topProjects } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
+import { github, browser } from '../assets';
+import { Link } from 'react-router-dom';
 
 const ExperienceCard = ({ project }) => {
   return (
@@ -61,6 +63,38 @@ const ExperienceCard = ({ project }) => {
             #{tag.name}
           </p>
         ))}
+      </div>
+      <div className='flex justify-start items-center gap-4 mt-4'>
+        <Link to={project.live_link}>
+          <button className='px-3 py-1 rounded-md bg-green-text-gradient flex justify-center items-center gap-3'>
+            <img
+              src={browser}
+              className='w-[22px]'
+              alt='source code'
+            />
+            Live Link
+          </button>
+        </Link>
+        <Link to={project.client_link}>
+          <button className='px-3 py-1 rounded-md bg-blue-text-gradient flex justify-center items-center gap-3'>
+            <img
+              src={github}
+              className='w-[22px]'
+              alt='source code'
+            />
+            Client
+          </button>
+        </Link>
+        <Link to={project.client_link}>
+          <button className='px-3 py-1 rounded-md bg-orange-text-gradient flex justify-center items-center gap-3'>
+            <img
+              src={github}
+              className='w-[22px]'
+              alt='source code'
+            />
+            Server
+          </button>
+        </Link>
       </div>
     </VerticalTimelineElement>
   );
