@@ -169,6 +169,113 @@ const experiences = [
     ],
   },
 ];
+const topProjects = [
+  {
+    title: 'Apartment Management',
+    sub_title: 'A Full Stack Apartment Management Website with Admin Panel',
+    icon: starbucks,
+    iconBg: '#383E56',
+    complete_duration: 'March 2020 - April 2021',
+    features: [
+      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Participating in code reviews and providing constructive feedback to other developers.',
+    ],
+    technologies: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongoose',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'firebase',
+        color: 'orange-text-gradient',
+      },
+    ],
+    live_link: 'https://linden-apartment-management.web.app/',
+    client_link:
+      'https://github.com/muhammad-shahin/apartment-management-client',
+    server_link:
+      'https://github.com/muhammad-shahin/apartment-management-server',
+  },
+  {
+    title: 'Online Group Study',
+    sub_title:
+      'Submit Your Assignment and Get Feedback. Give Feedback to Other Users.',
+    icon: tesla,
+    iconBg: '#a4a4a4',
+    complete_duration: 'March 2020 - April 2021',
+    features: [
+      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Participating in code reviews and providing constructive feedback to other developers.',
+    ],
+    technologies: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    live_link: 'https://linden-apartment-management.web.app/',
+    client_link:
+      'https://github.com/muhammad-shahin/apartment-management-client',
+    server_link:
+      'https://github.com/muhammad-shahin/apartment-management-server',
+  },
+  {
+    title: 'Fashion & Apparel E-Commerce',
+    sub_title: 'A Simple E-Commerce Site With Stripe Payment Integration',
+    icon: shopify,
+    iconBg: '#383E56',
+    complete_duration: 'March 2020 - April 2021',
+    features: [
+      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Participating in code reviews and providing constructive feedback to other developers.',
+    ],
+    technologies: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'stripe',
+        color: 'blue-text-gradient',
+      },
+    ],
+    live_link: 'https://linden-apartment-management.web.app/',
+    client_link:
+      'https://github.com/muhammad-shahin/apartment-management-client',
+    server_link:
+      'https://github.com/muhammad-shahin/apartment-management-server',
+  },
+];
 
 const testimonials = [
   {
@@ -263,4 +370,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  topProjects,
+};
