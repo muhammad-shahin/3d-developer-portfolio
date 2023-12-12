@@ -16,14 +16,16 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
+  am_logo,
+  rmp_logo,
   shopify,
   fashion_apparel,
   apartment_management,
   online_group_study,
   threejs,
   nextjs,
+  tesla,
+  starbucks,
 } from '../assets';
 
 export const navLinks = [
@@ -173,9 +175,9 @@ const topProjects = [
   {
     title: 'Apartment Management',
     sub_title: 'A Full Stack Apartment Management Website with Admin Panel',
-    icon: starbucks,
-    iconBg: '#383E56',
-    complete_duration: 'March 2020 - April 2021',
+    icon: am_logo,
+    iconBg: '#fff',
+    complete_duration: '23 Nov 2023 - 1 Dec 2023',
     features: [
       'Firebase Authentication with User Roles',
       'Stripe Payment Integration for Monthly Rent',
@@ -214,9 +216,9 @@ const topProjects = [
     title: 'Online Group Study',
     sub_title:
       'Submit Your Assignment and Get Feedback. Give Feedback to Other Users.',
-    icon: tesla,
-    iconBg: '#a4a4a4',
-    complete_duration: 'March 2020 - April 2021',
+    icon: rmp_logo,
+    iconBg: '#fff',
+    complete_duration: '7 Nov 2023 - 13 Nov 2023',
     features: [
       'Firebase Authentication with Social Logins',
       'CRUD Operations for Assignments (Create, Read, Update, Delete)',
@@ -246,7 +248,7 @@ const topProjects = [
     sub_title: 'A Simple E-Commerce Site With Stripe Payment Integration',
     icon: shopify,
     iconBg: '#383E56',
-    complete_duration: 'March 2020 - April 2021',
+    complete_duration: '16 Oct 2023 - 21 Oct 2023',
     features: [
       'Firebase Authentication with Google and Email/Password',
       'Admin Panel for Product and Content Management',

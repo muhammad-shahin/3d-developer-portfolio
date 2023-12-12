@@ -32,6 +32,8 @@ import apartment_management from './apartment_management.png';
 import online_group_study from './online_group_study.png';
 import browser from './browser.svg';
 import download from './download.svg';
+import am_logo from './apartment_management _logo.png';
+import rmp_logo from './rate_my_project.ico';
 
 export {
   logo,
@@ -65,4 +67,6 @@ export {
   nextjs,
   browser,
   download,
+  am_logo,
+  rmp_logo,
 };
