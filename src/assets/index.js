@@ -27,9 +27,9 @@ import shopify from './company/shopify.png';
 import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import fashion_apparel from './fashion_apparel.PNG';
+import apartment_management from './apartment_management.png';
+import online_group_study from './online_group_study.png';
 import browser from './browser.svg';
 
 export {
@@ -58,9 +58,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  fashion_apparel,
+  apartment_management,
+  online_group_study,
   nextjs,
   browser,
 };

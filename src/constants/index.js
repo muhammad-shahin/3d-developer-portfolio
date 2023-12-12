@@ -19,9 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  fashion_apparel,
+  apartment_management,
+  online_group_study,
   threejs,
   nextjs,
 } from '../assets';
@@ -55,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'Tech Enthusiast',
     icon: creator,
   },
 ];
@@ -308,9 +308,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Fashion & Apparel House 👗',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Explore the latest trends in fashion through this cutting-edge e-commerce web application. Built with React and backed by Node.js and MongoDB, the platform offers a user-friendly navigation experience, an exclusive admin panel for content management, and seamless cart management with dynamic price calculation.',
     tags: [
       {
         name: 'react',
@@ -324,51 +324,66 @@ const projects = [
         name: 'tailwind',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'firebase',
+        color: 'orange-text-gradient',
+      },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: fashion_apparel,
+    source_code_link:
+      'https://github.com/muhammad-shahin/apparel-and-fashion-client',
   },
   {
-    name: 'Job IT',
+    name: 'Apartment Management 🏠',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'A comprehensive apartment management solution that leverages React, Node.js, Express.js, and MongoDB. Users can submit rent requests, make monthly payments via Stripe integration, and access user-specific dashboards. Admins enjoy role management, rent request handling, and coupon management, all within a responsive and secure environment.',
+    tags: [
+      {
+        name: 'mongoose',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'firebase',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: apartment_management,
+    source_code_link:
+      'https://github.com/muhammad-shahin/apartment-management-client',
+  },
+  {
+    name: 'Online Group Study 📚',
+    description:
+      'A collaborative online platform where users can create, complete, and grade assignments within study groups. Featuring Firebase authentication for secure user management and dynamic assignment management functionalities, it fosters a seamless and engaging group study experience.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
-    ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
       {
-        name: 'nextjs',
+        name: 'firebase',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'mongodb',
         color: 'blue-text-gradient',
       },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: online_group_study,
+    source_code_link:
+      'https://github.com/muhammad-shahin/rate-my-project-client',
   },
 ];
 
