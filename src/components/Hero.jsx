@@ -28,6 +28,7 @@ const Hero = () => {
             to={
               'https://drive.google.com/drive/folders/1U1E3zutdJj82R3TFhanJ0LgLrZlhq7Zu?usp=sharing'
             }
+            target='_blank'
             className='relative z-[100]'
           >
             <button className='px-5 py-2 rounded-full bg-gradient-to-r from-[#915EFF] to-indigo-600 hover:from-indigo-600 hover:to-indigo-600 duration-300 flex justify-center items-center gap-3 mt-4'>

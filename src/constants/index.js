@@ -305,6 +305,35 @@ const testimonials = [
     image: 'https://randomuser.me/api/portraits/women/6.jpg',
   },
 ];
+const socialLinks = [
+  {
+    message:
+      "Excited to connect with you on Facebook! Check out my updates and let's stay in touch.",
+    name: 'ShahinMuhammad2',
+    note: 'ADD ME ON FACEBOOK',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png',
+    link: 'https://www.facebook.com/ShahinMuhammad2/',
+  },
+  {
+    message:
+      "Let's connect on LinkedIn! Explore my professional journey and feel free to reach out.",
+    name: 'shahin-muhammad',
+    note: 'CONNECT ON LINKEDIN',
+    image:
+      'https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png',
+    link: 'https://www.linkedin.com/in/shahin-muhammad/',
+  },
+  {
+    message:
+      'Discover my projects and contributions on GitHub. Excited to share my works with you!',
+    name: 'muhammad-shahin',
+    note: 'MY WORKS ON GITHUB',
+    image:
+      'https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png',
+    link: 'https://github.com/muhammad-shahin',
+  },
+];
 
 const projects = [
   {
@@ -394,4 +423,5 @@ export {
   testimonials,
   projects,
   topProjects,
+  socialLinks,
 };
